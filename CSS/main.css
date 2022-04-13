@@ -1,0 +1,62 @@
+/*estilos generales*/
+body{
+    background-color: bisque;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(216, 136, 38);
+   
+}
+
+
+/*estilos del header */
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+
+}
+
+/*estilos de cards*/
+
+.estilos-card{
+    margin: 1rem;
+    background-color: rgb(216, 136, 38);
+
+}
+
+/*estilos p*/
+
+.estilos-p{
+    font-size: 1.8rem;
+
+}
+
+/*estilos botones*/
+.btn-estilos{
+    background-color: rgb(204, 158, 102);
+    box-shadow: 1px 3px black; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+   
+}
+
+.btn-estilos:hover{
+    transform: scale(1.1);
+}
